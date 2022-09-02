@@ -1,0 +1,36 @@
+
+input{
+	width: 30%;
+	height:30px;
+	margin:1% 1% 1% 35% ;
+	padding: 0.5%;
+	outline: none;
+	 border: none; 
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1.5px #cdcbcb;
+  }
+  .Container {
+	padding:5%;
+	margin-left:4%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap:2%
+  
+  }
+  .Button{
+	padding: 1%;
+	border-radius: 20px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background:#035fba;
+	color:white
+	
+  } 
+  .Button:hover {
+	background:#4597e9;
+  }
+  .Pagination{
+	margin-left:35%;
+	padding:1%;
+  }
